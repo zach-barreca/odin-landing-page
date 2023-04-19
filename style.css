@@ -53,7 +53,7 @@ h2 {
     color: #e5e7eb;
 }
 
-button {
+.hero-button {
     background: #3882f6;
     color: #f9faf8;
     border-radius: 10px;
@@ -118,6 +118,7 @@ h4 {
     width: 825px;
     padding-left: 200px;
     margin-bottom: 0;
+    color: #565d68;
 }
 
 .attribution {
@@ -125,4 +126,37 @@ h4 {
     font-weight: 700;
     text-align: right;
     padding-right: 250px;
+    color:#1f2937;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #3882f6;
+    border-radius: 10px;
+    margin: 100px 200px;
+    padding: 36px;
+}
+
+h5 {
+    color:#f9faf8;
+    font-size: 24px;
+    margin:0;
+}
+
+.cta-subtext {
+    color:#f9faf8;
+    margin: 0;
+}
+
+.cta-button {
+    background:#3882f6;
+    padding: 10px 40px;
+    border-style: solid;
+    border-color:#f9faf8;
+    color:#f9faf8;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
 }
