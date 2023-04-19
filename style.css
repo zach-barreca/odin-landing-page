@@ -160,3 +160,14 @@ h5 {
     font-size: 18px;
     font-weight: 700;
 }
+
+
+h6 {
+    background: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    padding: 42px;
+    font-weight: 100;
+}
