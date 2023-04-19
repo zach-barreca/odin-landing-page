@@ -67,11 +67,13 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 64px;
 }
 
 h3 {
     font-size: 36px;
     font-weight: 900;
+    color: #1f2937;
 }
 
 .panel {
@@ -83,17 +85,44 @@ h3 {
 .pair {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
 }
 
 .graphic {
     border: #3882f6;
     border-style: solid;
     border-radius: 10px;
-    height: 200px;
-    width: 200px;
+    border-width: 4px;
+    height: 150px;
+    width: 150px;
 }
 
 .graphic-text {
     width: 200px;
+    font-size: 18px;
+    text-align: center;
+    color: #565d68;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background: #e5e7eb;
+    padding: 64px;
+}
+
+h4 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    width: 825px;
+    padding-left: 200px;
+    margin-bottom: 0;
+}
+
+.attribution {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 250px;
 }
