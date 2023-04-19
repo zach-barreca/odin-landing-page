@@ -38,18 +38,19 @@ a {
     padding: 128px;
 }
 
+.container {
+    width: 400px;
+}
+
 h2 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
     margin: 0;
-    padding: 0;
 }
 
 p {
     color: #e5e7eb;
-    margin: 0;
-    padding: 0;
 }
 
 button {
@@ -57,7 +58,11 @@ button {
     color: #f9faf8;
     border-radius: 10px;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 40px;
     font-size: 18px;
     font-weight: 700;
+}
+
+img {
+    width: 450px;
 }
